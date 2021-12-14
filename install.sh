@@ -1,3 +1,4 @@
 npm install imagemagick
-npm install bash
+npm install ffmpeg
 npm install 
+npm update
