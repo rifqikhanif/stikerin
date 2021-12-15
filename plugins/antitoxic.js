@@ -1,7 +1,7 @@
 let fs = require('fs')
 const { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m) => {
-let ara = fs.readFileSync('./audio/kasar.mp3') 
+let ara = fs.readFileSync('./audio/Marah.mp3') 
 conn.sendMessage(m.chat, ara, MessageType.audio, {quoted: m, mimetype: 'audio/mp4', ptt:true})
 }
 
